@@ -1,0 +1,15 @@
+BanWaves:
+ Message: '&4[WATCHDOG ANNOUCEMENT]'
+ Message1: '&fWatchdog has banned &c&l{total} &fplayers in the 24 hours.'
+ Message2: '&fBlacklisted modifications are a bannable offense!'
+ EnableBanWave: true #when disabled all users in the pendingusers.yml will be removed.
+ EraseBansOnDisable: true #should the bans be erased on the /banwave off command
+ CommandOnBanWave:
+  - ban {name} {reason}  # {name} name of the person {reason} why they were banned.  {name}, {uuid}, {reason}
+ TotalBans: 0
+ CommandsMessages:
+   BanWaveAddCommand: '&f[WATCHDOG] &e{name} &chas been added to the ban wave.'
+   BanWaveExecuteCommand: '&f[WATCHDOG] &cBan wave is starting.'
+   BanWaveRemoveCommand: '&f[WATCHDOG] &e{name} &chas been removed from the ban wave.'
+   BanWaveOffCommand: '&f[WATCHDOG] &cBan wave disabled. All players on the list will no longer be banned.'
+   BanWaveOnCommand: '&f[WATCHDOG] &cBan wave enabled.'

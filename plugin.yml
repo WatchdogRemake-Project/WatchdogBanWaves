@@ -1,0 +1,5 @@
+main: eos.banwaves.free.BanWaves
+name: BanWaves
+version: 2.0.0
+description: Banwaves plugin for Watchdog
+authors: [Eos, ItzSomebody, NulledXenforo]
